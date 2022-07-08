@@ -1,0 +1,427 @@
+<!-- Luisito Dark -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player | Coding With Nick</title>
+  <link rel="stylesheet" href="style.css"> <!-- Nombre del estilo igual que el programa -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+</head>
+
+
+<body>
+    <div class="container">
+
+        <div class="top-bar">
+          <i class="material-icons">favorite_border</i>
+          <span>Darkk12</span>
+          <i class="material-icons">add</i>
+        </div>
+
+
+        <div class="img-area">
+          <img src="images/music-1.jpg" alt="">
+        </div>
+
+
+        <div class="song-details">
+          <p class="name">Me Porto Bonito</p>
+          <p class="artist">Bad Bunny (ft. Chencho Corleone)</p>
+        </div>
+
+
+        <div class="progress-area">
+
+            <div class="progress-bar">
+              <audio id="main-audio" src=""></audio>
+            </div>
+            <div class="song-timer">
+              <span class="current-time">0:00</span>
+              <span class="max-duration">0:00</span>
+            </div>
+            <audio id="main-audio" src=""></audio>
+          </div>
+      
+          <div class="controls">
+            <i id="repeat-plist" class="material-icons" title="Playlist looped">repeat</i>
+            <i id="prev" class="material-icons prev">fast_rewind</i>
+            <div class="play-pause">
+              <i class="material-icons play">play_arrow</i>
+            </div>
+            <i id="next" class="material-icons next">fast_forward</i>
+            <i id="more-music" class="material-icons">queue_music</i>
+          </div>
+      
+          <div class="music-list"> <!-- Nombre de la carpeta music list igual al archivo -->
+            <div class="header">
+              <div class="row">
+                <i class="list material-icons">queue_music</i>
+                <span>Music List</span>
+              </div>
+              <i id="close" class="material-icons">close</i>
+            </div>
+            <ul> 
+              <li> <!-- Inicio lista reproductor1 -->
+                <div class="row">
+                  <span>Me Porto Bonito</span>
+                  <p>Bad Bunny (ft. Chencho Corleone)</p>
+                  </div>
+                  <span class="audio-duration">3:11</span>
+              </li> <!-- Fin de lista de reproductor -->
+
+
+              <li> <!-- Inicio lista reproductor2 -->
+                <div class="row">
+                  <span>Ojitos Lindos</span>
+                  <p>Bad Bunny (ft. Bomba Estéreo)</p>
+                  </div>
+                  <span class="audio-duration">4:18</span>
+              </li> <!-- Fin de lista de reproductor -->
+
+
+              <li> <!-- Inicio lista reproductor3 -->
+                <div class="row">
+                  <span>Party </span>
+                  <p>Bad Bunny (ft. Rauw Alejandro)</p>
+                  </div>
+                  <span class="audio-duration">3:48</span>
+              </li> <!-- Fin de lista de reproductor -->
+
+
+              <li> <!-- Inicio lista reproductor4 -->
+                <div class="row">
+                  <span>Tarot</span>
+                  <p>Bad Bunny (ft. Jhay Cortez)</p>
+                  </div>
+                  <span class="audio-duration">3:58</span>
+              </li> <!-- Fin de lista de reproductor -->
+
+
+              <li> <!-- Inicio lista reproductor5 -->
+                <div class="row">
+                  <span>Me Fui de Vacaciones</span>
+                  <p>Bad Bunny</p>
+                  </div>
+                  <span class="audio-duration">3:01</span>
+              </li> <!-- Fin de lista de reproductor -->
+
+
+              <li> <!-- Inicio lista reproductor6 -->
+                <div class="row">
+                  <span>Yo No Soy Celoso</span>
+                  <p>Bad Bunny</p>
+                  </div>
+                  <span class="audio-duration">3:51</span>
+              </li> <!-- Fin de lista de reproductor -->
+
+
+              <li> <!-- Inicio lista reproductor7 -->
+                <div class="row">
+                  <span>Después de la Playa</span>
+                  <p>Bad Bunny</p>
+                  </div>
+                  <span class="audio-duration">3:50</span>
+              </li> <!-- Fin de lista de reproductor -->
+
+
+              <li> <!-- Inicio lista reproductor8 -->
+                <div class="row">
+                  <span>Un Ratito</span>
+                  <p>Bad Bunny</p>
+                  </div>
+                  <span class="audio-duration">2:57</span>
+              </li> <!-- Fin de lista de reproductor -->
+
+
+              <li> <!-- Inicio lista reproductor9 -->
+                <div class="row">
+                  <span>Otro Atardecer</span>
+                  <p>Bad Bunny (ft. The Marias)</p>
+                  </div>
+                  <span class="audio-duration">4:04</span>
+              </li> <!-- Fin de lista de reproductor -->
+
+
+              <li> <!-- Inicio lista reproductor10 -->
+                <div class="row">
+                  <span>Efecto</span>
+                  <p>Bad Bunny</p>
+                  </div>
+                  <span class="audio-duration">3:33</span>
+              </li> <!-- Fin de lista de reproductor -->
+
+
+              <li> <!-- Inicio lista reproductor11 -->
+                <div class="row">
+                  <span>Aguacero</span>
+                  <p>Bad Bunny</p>
+                  </div>
+                  <span class="audio-duration">3:31</span>
+              </li> <!-- Fin de lista de reproductor -->
+
+
+              <li> <!-- Inicio lista reproductor12 -->
+                <div class="row">
+                  <span>Agosto</span>
+                  <p>Bad Bunny</p>
+                  </div>
+                  <span class="audio-duration">2:19</span>
+              </li> <!-- Fin de lista de reproductor -->
+
+
+              <li> <!-- Inicio lista reproductor13 -->
+                <div class="row">
+                  <span>Un Coco</span>
+                  <p>Bad Bunny</p>
+                  </div>
+                  <span class="audio-duration">3:16</span>
+              </li> <!-- Fin de lista de reproductor -->
+
+
+              <li> <!-- Inicio lista reproductor14 -->
+                <div class="row">
+                  <span>Neverita</span>
+                  <p>Bad Bunny</p>
+                  </div>
+                  <span class="audio-duration">2:53</span>
+              </li> <!-- Fin de lista de reproductor -->
+
+
+              <li> <!-- Inicio lista reproductor15 -->
+                <div class="row">
+                  <span>Andrea</span>
+                  <p>Bad Bunny (ft. Buscabulla)</p>
+                  </div>
+                  <span class="audio-duration">5:40</span>
+              </li> <!-- Fin de lista de reproductor -->
+
+
+              <li> <!-- Inicio lista reproductor16 -->
+                <div class="row">
+                  <span>Enséñame a Bailar</span>
+                  <p>Bad Bunny</p>
+                  </div>
+                  <span class="audio-duration">2:56</span>
+              </li> <!-- Fin de lista de reproductor -->
+
+
+              <li> <!-- Inicio lista reproductor17 -->
+                <div class="row">
+                  <span>Un Verano Sin Ti</span>
+                  <p>Bad Bunny</p>
+                  </div>
+                  <span class="audio-duration">2:28</span>
+              </li> <!-- Fin de lista de reproductor -->
+
+
+              <li> <!-- Inicio lista reproductor18 -->
+                <div class="row">
+                  <span>Dos Mil 16</span>
+                  <p>Bad Bunny</p>
+                  </div>
+                  <span class="audio-duration">3:28</span>
+              </li> <!-- Fin de lista de reproductor -->
+
+
+              <li> <!-- Inicio lista reproductor19 -->
+                <div class="row">
+                  <span>La Corriente</span>
+                  <p>Bad Bunny (ft. Tony Dize)</p>
+                  </div>
+                  <span class="audio-duration">3:18</span>
+              </li> <!-- Fin de lista de reproductor -->
+
+
+              <li> <!-- Inicio lista reproductor20 -->
+                <div class="row">
+                  <span>Moscow Mule</span>
+                  <p>Bad Bunny</p>
+                  </div>
+                  <span class="audio-duration">4:12</span>
+              </li> <!-- Fin de lista de reproductor -->
+
+
+              <li> <!-- Inicio lista reproductor21 -->
+                <div class="row">
+                  <span>El Apagón</span>
+                  <p>Bad Bunny</p>
+                  </div>
+                  <span class="audio-duration">3:22</span>
+              </li> <!-- Fin de lista de reproductor -->
+
+
+              <li> <!-- Inicio lista reproductor22 -->
+                <div class="row">
+                  <span>TE DESEO LO MEJOR</span>
+                  <p>Bad Bunny</p>
+                  </div>
+                  <span class="audio-duration">2:58</span>
+              </li> <!-- Fin de lista de reproductor -->
+
+
+              <li> <!-- Inicio lista reproductor23 -->
+                <div class="row">
+                  <span>De Museo</span>
+                  <p>Bad Bunny</p>
+                  </div>
+                  <span class="audio-duration">3:29</span>
+              </li> <!-- Fin de lista de reproductor -->
+
+
+              <li> <!-- Inicio lista reproductor24 -->
+                <div class="row">
+                  <span>Yonaguni</span>
+                  <p>Bad Bunny</p>
+                  </div>
+                  <span class="audio-duration">3:28</span>
+              </li> <!-- Fin de lista de reproductor -->
+
+
+              <li> <!-- Inicio lista reproductor25 -->
+                <div class="row">
+                  <span>LA NOCHE DE ANOCHE</span>
+                  <p>BAD BUNNY x ROSALÍA</p>
+                  </div>
+                  <span class="audio-duration">3:37</span>
+              </li> <!-- Fin de lista de reproductor -->
+
+
+              <li> <!-- Inicio lista reproductor26 -->
+                <div class="row">
+                  <span>HOY COBRÉ </span>
+                  <p>Bad Bunny</p>
+                  </div>
+                  <span class="audio-duration">3:31</span>
+              </li> <!-- Fin de lista de reproductor -->
+
+
+              <li> <!-- Inicio lista reproductor27 -->
+                <div class="row">
+                  <span>DÁKITI</span>
+                  <p>BAD BUNNY x JHAY CORTEZ</p>
+                  </div>
+                  <span class="audio-duration">3:32</span>
+              </li> <!-- Fin de lista de reproductor -->
+
+
+              <li> <!-- Inicio lista reproductor28 -->
+                <div class="row">
+                  <span>YO VISTO ASÍ</span>
+                  <p>Bad Bunny</p>
+                  </div>
+                  <span class="audio-duration">3:40</span>
+              </li> <!-- Fin de lista de reproductor -->
+
+
+              <li> <!-- Inicio lista reproductor29 -->
+                <div class="row">
+                  <span>UNA VEZ</span>
+                  <p>BAD BUNNY x MORA</p>
+                  </div>
+                  <span class="audio-duration">4:39</span>
+              </li> <!-- Fin de lista de reproductor -->
+
+
+              <li> <!-- Inicio lista reproductor30 -->
+                <div class="row">
+                  <span>LA DIFÍCIL</span>
+                  <p>Bad Bunny</p>
+                  </div>
+                  <span class="audio-duration">3:12</span>
+              </li> <!-- Fin de lista de reproductor -->
+
+
+              <li> <!-- Inicio lista reproductor31 -->
+                <div class="row">
+                  <span>SI VEO A TU MAMÁ</span>
+                  <p>Bad Bunny</p>
+                  </div>
+                  <span class="audio-duration">4:25</span>
+              </li> <!-- Fin de lista de reproductor -->
+
+
+              <li> <!-- Inicio lista reproductor32 -->
+                <div class="row">
+                  <span>LA SANTA </span>
+                  <p>BAD BUNNY x DADDY YANKEEL</p>
+                  </div>
+                  <span class="audio-duration">3:26</span>
+              </li> <!-- Fin de lista de reproductor -->
+
+
+              <li> <!-- Inicio lista reproductor33 -->
+                <div class="row">
+                  <span>¿QUIÉN TÚ ERES?</span>
+                  <p>Bad Bunny</p>
+                  </div>
+                  <span class="audio-duration">5:01</span>
+              </li> <!-- Fin de lista de reproductor -->
+
+              <li> <!-- Inicio lista reproductor34 -->
+                <div class="row">
+                  <span>YO LE LLEGO</span>
+                  <p>J BALVIN x BAD BUNNY</p>
+                  </div>
+                  <span class="audio-duration">3:54</span>
+              </li> <!-- Fin de lista de reproductor -->
+
+
+              <li> <!-- Inicio lista reproductor35 -->
+                <div class="row">
+                  <span>LA CANCIÓN</span>
+                  <p>J BALVIN x BAD BUNNY</p>
+                  </div>
+                  <span class="audio-duration">4:10</span>
+              </li> <!-- Fin de lista de reproductor -->
+
+              <li> <!-- Inicio lista reproductor36 -->
+                <div class="row">
+                  <span>VETE</span>
+                  <p>Bad Bunny</p>
+                  </div>
+                  <span class="audio-duration">3:27</span>
+              </li> <!-- Fin de lista de reproductor -->
+
+
+              <li> <!-- Inicio lista reproductor37 -->
+                <div class="row">
+                  <span>CALLAÍTA </span>
+                  <p>Bad Bunny</p>
+                  </div>
+                  <span class="audio-duration">4:07</span>
+              </li> <!-- Fin de lista de reproductor -->
+
+
+              <li> <!-- Inicio lista reproductor38 -->
+                <div class="row">
+                  <span>SI ESTUVIÉSEMOS JUNTOS</span>
+                  <p>Bad Bunny</p>
+                  </div>
+                  <span class="audio-duration">2:54</span>
+              </li> <!-- Fin de lista de reproductor -->
+
+
+              <li> <!-- Inicio lista reproductor39 -->
+                <div class="row">
+                  <span>MÍA</span>
+                  <p>BAD BUNNY x DRAKE</p>
+                  </div>
+                  <span class="audio-duration">3:30</span>
+              </li> <!-- Fin de lista de reproductor -->
+
+
+
+            </ul>
+          </div>
+      
+      
+        </div>
+      
+        <script src="js/music-list.js"></script>
+        <script src="js/script.js"></script>
+      
+      </body>
+      
+      </html>

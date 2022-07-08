@@ -1,0 +1,158 @@
+List
+
+music-1
+Me Porto Bonito
+Bad Bunny (ft. Chencho Corleone)
+
+music-2
+Ojitos Lindos
+Bad Bunny (ft. Bomba Estéreo)
+
+music-3
+Party 
+Bad Bunny (ft. Rauw Alejandro)
+
+music-4
+Tarot 
+Bad Bunny (ft. Jhay Cortez)
+
+music-5
+Me Fui de Vacaciones
+Bad Bunny
+
+music-6
+Yo No Soy Celoso
+Bad Bunny
+
+
+music-7
+Después de la Playa
+Bad Bunny
+
+music-8
+Un Ratito
+Bad Bunny
+
+music-9
+Otro Atardecer
+Bad Bunny (ft. The Marias)
+
+music-10
+Efecto
+Bad Bunny
+
+music-11
+Aguacero
+Bad Bunny
+
+music-12
+Agosto 
+Bad Bunny
+
+music-13
+Un Coco
+Bad Bunny
+
+music-14
+Neverita 
+Bad Bunny
+
+music-15
+Andrea 
+Bad Bunny (ft. Buscabulla)
+
+music-16
+Enséñame a Bailar
+Bad Bunny
+
+music-17
+Un Verano Sin Ti
+Bad Bunny
+
+music-18
+Dos Mil 16
+Bad Bunny
+
+music-19
+La Corriente
+Bad Bunny (ft. Tony Dize)
+
+music-20
+Moscow Mule
+Bad Bunny
+
+music-21
+El Apagón
+Bad Bunny
+
+music-22
+TE DESEO LO MEJOR
+BAD BUNNY
+
+music-23
+De Museo
+BAD BUNNY
+
+music-24
+Yonaguni
+Bad Bunny
+
+music-25
+LA NOCHE DE ANOCHE
+BAD BUNNY x ROSALÍA
+
+music-26
+HOY COBRÉ 
+BAD BUNNY
+
+music-27
+DÁKITI
+BAD BUNNY x JHAY CORTEZ
+
+music-28
+YO VISTO ASÍ
+BAD BUNNY
+
+music-29
+UNA VEZ
+BAD BUNNY x MORA
+
+music-30
+LA DIFÍCIL
+BAD BUNNY
+
+music-31
+SI VEO A TU MAMÁ
+BAD BUNNY
+
+music-32
+LA SANTA 
+BAD BUNNY x DADDY YANKEEL
+
+music-33
+¿QUIÉN TÚ ERES?
+BAD BUNNY
+
+music-34
+YO LE LLEGO
+J BALVIN x BAD BUNNY
+
+music-35
+LA CANCIÓN
+J BALVIN x BAD BUNNY
+
+music-36
+VETE
+BAD BUNNY
+
+music-37
+CALLAÍTA 
+BAD BUNNY 
+
+music-38
+BAD BUNNY
+SI ESTUVIÉSEMOS JUNTOS
+
+music-39
+MÍA
+BAD BUNNY x DRAKE
